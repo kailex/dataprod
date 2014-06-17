@@ -10,7 +10,7 @@ shinyUI(pageWithSidebar(
     radioButtons("am", "Transmission:", c("Automatic"=0, "Manual"=1))
   ),
   mainPanel(
-    h4("
+    h5("
        This simple application allows to calculate miles per gallon for a particular car.
        To do this we need to input a weight of car and 1/4 mile time using sliders. 
        Also we may choose a type of a transmission with radio button. 
