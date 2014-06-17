@@ -17,9 +17,7 @@ shinyUI(pageWithSidebar(
        All input elements are situated on the left side of a page. 
        On the right side of the page there are two plots indicating dependency between MPG,
        weight, 1/4 mile time and type of transmission.
-     
        We use a linear model which was built w.r.t. the AIC score:"),
-    h4("mpg ~ wt + qsec + am"),
     plotOutput("plots")
   )
 ))
